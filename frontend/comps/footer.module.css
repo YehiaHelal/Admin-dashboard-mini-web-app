@@ -1,0 +1,56 @@
+/* Footer Six  */
+
+.footerWhole {
+  background-color: rgb(133, 128, 128, 0.1);
+  /* width: 1900px; */
+  /* margin: 0 0; */
+  /* margin-top: 100px; */
+}
+
+.footerComponent {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  padding: 50px;
+  margin-bottom: 0;
+}
+
+.footerComponent > div {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.footerComponent * a {
+  font-size: 16px;
+}
+
+.footerComponent * h3 {
+  margin-bottom: 10px;
+}
+
+@media screen and (max-width: 1300px) {
+  .footerWhole {
+    width: 1000px;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .footerWhole {
+    width: 700px;
+  }
+
+  .footerComponent {
+    padding: 10px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .footerWhole {
+    width: 400px;
+  }
+  .footerComponent {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+}

@@ -1,0 +1,107 @@
+.component {
+  width: 350px;
+  /* height: 600px; */
+  /* background-color: #d3d3d3; */
+  /* background-color: #b0c4de; */
+  background-color: #eaecee;
+
+  border-radius: 3px;
+
+  /* overflow: auto; */
+  /* position: fixed; */
+  /* left: 400px; */
+  /* top: 80px; */
+
+  /* z-index: 2; */
+}
+
+.overflow {
+  overflow: auto;
+  height: 400px;
+}
+
+.Title {
+  display: flex;
+  padding: 30px;
+  font-size: 22px;
+}
+
+.TotalPriceComponent {
+  padding: 20px;
+  /* margin: 10px 20px;
+
+  margin-top: 30px;
+  margin-bottom: 20px; */
+  /* padding: 10px; */
+  bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+  /* padding: 10px; */
+  /* padding-bottom: 10px; */
+  font-size: 20px;
+  border-bottom: 1px solid black;
+  border-top: 1px solid black;
+  /* margin-bottom: 10px; */
+}
+
+/* .PurchaseButton {
+  display: flex;
+  padding: 15px 120px;
+  margin: 0 auto;
+} */
+
+/* .PurchaseButtonLink {
+  display: flex;
+  padding: 15px 120px;
+  margin: 0 auto;
+  border: 1px solid black;
+  background-color: buttonface;
+  font-size: 16px;
+} */
+
+.ItemStylesComponent {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  padding: 10px 20px;
+}
+
+.ItemStylesComponentNameandButton {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 200px;
+}
+
+.ItemStylesComponentPriceandQuantity {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.ItemStylesComponentQuantity {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+}
+
+.ItemStylesComponentQuantity > button {
+  padding: 5px;
+}
+
+.ItemStylesComponentPrice {
+  display: flex;
+  justify-content: center;
+}
+
+.cartitemnumber {
+  padding: 5px;
+  background-color: rgb(255, 0, 0, 0.5);
+  border-radius: 5px;
+}
+
+.component * {
+  background-color: rgb(214, 221, 230, 0.8);
+  border-radius: 4px;
+}

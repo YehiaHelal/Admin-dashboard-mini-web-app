@@ -1,0 +1,243 @@
+.component {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  padding: 30px;
+  gap: 20px;
+  width: 1200px;
+  margin: 0 auto;
+  margin-top: 50px;
+  font-size: 18px;
+  padding-bottom: 80px;
+
+  background-color: rgb(234, 236, 238, 0.7);
+}
+
+.componentAll {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.Items {
+  display: flex;
+}
+
+.OrderItems {
+  display: flex;
+  width: 1000px;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.DeliveryDetailsComponent {
+  display: flex;
+  flex-direction: column;
+  /* gap: 30px; */
+  padding: 20px;
+  gap: 60px;
+}
+
+.DeliveryDetailsAddress {
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
+  width: 60%;
+}
+
+.DeliveryDetailsComponent > button {
+  width: 50%;
+  padding: 8px;
+}
+
+.DeliveryDetailsAddressEditInfoBtn > button {
+  width: 50%;
+  padding: 8px;
+}
+
+.DeliveryDetailsAddressEditInfoBtn > div {
+  margin-top: 10px;
+  background-color: rgb(0, 128, 0, 0.3);
+  padding: 8px;
+}
+
+.PaymentComponent {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  padding: 30px;
+  border: 1px solid black;
+}
+
+.PaymentComponentEach {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  /* border: 1px solid rgb(0, 0, 0, 0.5); */
+  /* padding: 10px; */
+  border-bottom: 1px solid black;
+}
+
+.PaymentComponentButton {
+  padding: 15px 50px;
+  border: none;
+}
+
+.PaymentComponentButton:hover {
+  cursor: pointer;
+  /* background-color: rgba(161, 161, 199, 0.3); */
+}
+
+.PaymentComponentButtonInsideComponent {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  border: 1px solid black;
+  padding: 10px 20px;
+}
+
+.PaymentComponentButtonInsideComponent:hover {
+  background-color: rgba(161, 161, 199, 0.3);
+}
+
+.PaymentComponentButtonInside {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+}
+
+.PaymentComponentButtonInsideComponent > img {
+  width: 50%;
+  height: 50%;
+}
+
+.PaymentComponentOrderButton {
+  padding: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  /* padding: 10px 30px; */
+  background-color: rgba(133, 133, 175, 0.1);
+
+  border: 1px solid rgb(0, 0, 0, 0.5);
+}
+
+.PaymentComponentOrderButton:hover {
+  cursor: pointer;
+  background-color: rgba(161, 161, 199, 0.3);
+}
+
+.paymentTitle {
+  font-size: 20px;
+}
+
+.PaymentComponentPartone {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-bottom: 20px;
+}
+
+.PaymentComponentPartonev2 {
+  background-color: rgb(0, 128, 0, 0.5) !important;
+  display: flex;
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  /* padding-bottom: 20px; */
+}
+
+.componentSignup {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  margin-top: 50px;
+}
+
+.footer {
+  padding-top: 22px;
+}
+
+.successfulordernotifcation {
+  padding: 15px;
+  background-color: rgb(135, 189, 135) !important;
+  font-size: 20px;
+}
+
+.Errornotification {
+  padding: 15px;
+  background-color: rgb(255, 0, 0, 0.3) !important;
+  font-size: 20px;
+}
+
+.PaymentComponentEachSecond {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  /* font-size: 18px; */
+}
+
+.PaymentComponentOrderButtonv2 {
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+  padding: 5px;
+}
+
+.DeliveryDetailsComponent * {
+  background-color: transparent;
+  border-radius: 4px;
+}
+
+.DeliveryDetailsComponent {
+  background-color: rgba(104, 104, 151, 0.1);
+  border-radius: 4px;
+}
+
+.PaymentComponent * {
+  /* background-color: transparent; */
+  /* background-color: azure; */
+  background-color: rgb(240, 255, 255, 0.1);
+}
+
+.PaymentComponent {
+  /* background-color: transparent; */
+  background-color: rgb(240, 255, 255, 0.1);
+}
+
+@media screen and (max-width: 1000px) {
+  .component {
+    width: 700px;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .PaymentComponentButtonInsideComponent {
+    padding: 30px;
+  }
+
+  .componentAll {
+    width: 700px;
+  }
+
+  .OrderItems {
+    width: 700px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .component {
+    width: 400px;
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .componentAll {
+    width: 400px;
+  }
+
+  .OrderItems {
+    width: 400px;
+  }
+}

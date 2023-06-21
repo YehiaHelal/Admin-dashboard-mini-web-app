@@ -1,0 +1,94 @@
+.resetPasswordComponent {
+  width: 1200px;
+  margin: 0 auto;
+  margin-top: 50px;
+  background-color: azure;
+}
+
+.ResetPasswordForm {
+  display: flex;
+  flex-direction: column;
+  padding: 200px;
+  gap: 10px;
+  align-items: center;
+}
+
+.ResetPasswordForm > h2 {
+  padding: 20px;
+}
+
+.forminputs {
+  display: flex;
+  gap: 30px;
+}
+
+.forminputs * {
+  padding: 10px;
+  font-size: 20px;
+}
+
+.forminputs > input {
+  padding: 5px 5px;
+}
+
+.ResetPasswordForm > button {
+  width: 50%;
+  padding: 10px;
+}
+
+.successMessage {
+  background-color: rgb(99, 160, 99) !important;
+  margin-top: 15px;
+  padding: 15px 50px;
+  display: flex;
+  justify-content: center;
+}
+
+.ErrorMessage {
+  background-color: rgb(255, 0, 0, 0.5) !important;
+  margin-top: 15px;
+  padding: 15px 50px;
+  display: flex;
+  justify-content: center;
+}
+
+@media screen and (max-width: 1000px) {
+  .resetPasswordComponent {
+    width: 700px;
+  }
+
+  .ResetPasswordForm {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    gap: 10px;
+    align-items: center;
+    /* margin-bottom: 100px; */
+    padding-bottom: 200px;
+  }
+
+  .forminputs * {
+    padding: 1px;
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .resetPasswordComponent {
+    width: 400px;
+  }
+
+  .ResetPasswordForm {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    gap: 10px;
+    align-items: center;
+    padding-bottom: 200px;
+  }
+
+  .forminputs * {
+    padding: 1px;
+    font-size: 16px;
+  }
+}

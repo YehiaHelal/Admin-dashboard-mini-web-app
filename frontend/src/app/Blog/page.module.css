@@ -1,0 +1,127 @@
+.resetPasswordComponent {
+  width: 1400px;
+  margin: 0 auto;
+  margin-top: 50px;
+  background-color: azure;
+}
+
+.ResetPasswordForm {
+  display: flex;
+  flex-direction: column;
+  padding: 200px;
+  gap: 10px;
+  align-items: center;
+}
+
+.ResetPasswordForm > h2 {
+  padding: 20px;
+}
+
+.forminputs {
+  display: flex;
+  gap: 30px;
+}
+
+.forminputs * {
+  padding: 10px;
+  font-size: 20px;
+}
+
+/* Section four - more information */
+
+.sectionfourComponent {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  gap: 20px;
+}
+
+.sectionfourComponent > img {
+  width: 100%;
+  height: 100%;
+}
+
+/* Section four title */
+.sectionfourTitle {
+  display: flex;
+  margin-top: 50px;
+  padding: 50px;
+  /* justify-content: center; */
+}
+
+.sectionfourTitle > h1 {
+  font-size: 30px;
+}
+
+/* Section four Text Content */
+
+.sectionfourTextContent {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  justify-content: space-between;
+
+  /* gap: 30px; */
+}
+
+.sectionfourTextContent > h2 {
+  font-size: 24px;
+}
+
+.sectionfourTextContent > p {
+  font-size: 16px;
+}
+
+.sectionfourTextContent > a {
+  width: 50%;
+  text-decoration: none;
+  padding: 10px;
+  border: 1px solid black;
+}
+
+@media screen and (max-width: 1300px) {
+  .resetPasswordComponent {
+    width: 1000px;
+    margin: 0 auto;
+    margin-top: 50px;
+    background-color: azure;
+  }
+
+  .sectionfourComponent > img {
+    width: 100%;
+    height: 50%;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .resetPasswordComponent {
+    width: 700px;
+  }
+
+  .sectionfourComponent {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 20px;
+  }
+
+  .sectionfourComponent > img {
+    width: 100%;
+    height: 50%;
+  }
+
+  @media screen and (max-width: 700px) {
+    .resetPasswordComponent {
+      width: 400px;
+    }
+
+    .sectionfourComponent {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 20px;
+    }
+
+    .sectionfourComponent > img {
+      width: 100%;
+      height: 100%;
+    }
+  }
+}

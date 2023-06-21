@@ -1,0 +1,174 @@
+/* .LiveChatComponent {
+} */
+
+.LiveChatComponent > h3 {
+  text-decoration: underline;
+  padding: 10px;
+  padding-left: 0px;
+}
+
+.ButtonTopNavigation {
+  display: flex;
+  gap: 10px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid black;
+}
+
+.ButtonTopNavigation > button {
+  padding: 10px;
+}
+
+.ButtonTopNavigation > button:hover {
+  background-color: rgb(255, 255, 255, 0.8);
+}
+
+.showActiveChatComponentShowSelection {
+  padding: 10px 0px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 20px;
+}
+
+.showActiveChatComponentShowSelection > select {
+  padding: 10px;
+}
+
+.chatBodycomponent {
+  grid-template-columns: repeat(4, 1fr);
+  display: grid;
+  flex-direction: row;
+  gap: 50px;
+}
+
+.chatandButtonBody {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid black;
+  padding: 10px;
+  width: 300px;
+  overflow: auto;
+}
+
+.chatBodyLogo {
+  display: flex;
+  gap: 10px;
+  padding: 5px;
+  border: 1px solid black;
+}
+
+.chatadminButtons {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.chatadminButtons > button {
+  padding: 5px;
+}
+
+.chatUserInfo {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  margin-bottom: 10px;
+}
+
+.chatUserInfo > h4 {
+  margin-bottom: 10px;
+  font-size: 18px;
+  text-decoration: underline;
+}
+
+.chatMessages {
+  height: 250px;
+  overflow: auto;
+  /* width: 270px; */
+  border: 1px solid black;
+  padding: 10px;
+}
+
+.chatandButtonBodyEachElement {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.chatmessagesAdminPartComponent {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  padding: 5px;
+}
+
+.chatmessagesAdminPartComponent > div {
+  width: 80%;
+  background-color: rgb(0, 128, 0, 0.1);
+  overflow-wrap: break-word;
+  padding: 5px;
+}
+
+.chatmessagesUserPartComponent {
+  display: flex;
+  padding: 5px;
+  justify-content: flex-end;
+}
+
+.chatmessagesUserPartComponent > div {
+  display: flex;
+  /* justify-content: flex-end; */
+  display: inline;
+  /* align-content: center; */
+  /* align-items: center; */
+  background-color: rgb(0, 0, 255, 0.1);
+  overflow-wrap: break-word;
+  width: 80%;
+  padding: 5px;
+  /* right: 0; */
+  /* position: relative; */
+  /* direction: ltr !important; */
+  text-align: end;
+}
+
+.addNoteComponent {
+  display: flex;
+  flex-direction: row;
+}
+
+.addNoteComponent > button {
+  padding: 5px;
+}
+
+.addNoteComponentTextarea {
+  width: 300px;
+  /* height: 50px; */
+}
+
+.chatsubmitComponentform {
+  display: flex;
+  align-items: flex-end;
+}
+
+.chatsubmitComponentform > button {
+  height: 50%;
+}
+.successRequest {
+  padding: 10px 20px;
+  background-color: rgb(0, 128, 0, 0.5) !important;
+}
+.error {
+  padding: 10px 20px;
+  background-color: rgb(255, 0, 0, 0.5) !important;
+}
+
+@media screen and (max-width: 1000px) {
+  .chatBodycomponent {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .chatBodycomponent {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}

@@ -1,0 +1,407 @@
+.component {
+  width: 300px;
+  height: 350px;
+  /* background-color: #d3d3d3; */
+  /* background-color: #d6dde6; */
+  background-color: rgb(214, 221, 230, 0.8);
+
+  border-radius: 3px;
+
+  overflow: auto;
+  position: fixed;
+  right: 10px;
+  top: 80px;
+
+  z-index: 2;
+  border: 1px solid;
+}
+
+.chatcomponent {
+  width: 340px;
+  height: 450px;
+  /* background-color: #d3d3d3; */
+  /* background-color: #d6dde6; */
+  background-color: rgb(214, 221, 230, 0.8);
+
+  border-radius: 3px;
+
+  /* overflow: auto; */
+  position: fixed;
+  right: 10px;
+  bottom: 1%;
+
+  z-index: 2;
+}
+
+.displaynone {
+  display: none;
+}
+
+.chatcomponentNotopenedMiniized {
+  width: 250px;
+  height: 50px;
+  /* background-color: #d3d3d3; */
+  /* background-color: #d6dde6; */
+  background-color: rgb(214, 221, 230, 0.8);
+
+  border-radius: 3px;
+
+  overflow: auto;
+  position: fixed;
+  right: 10px;
+  bottom: 1%;
+
+  z-index: 2;
+}
+
+.chatMiniizedComponent {
+  display: flex;
+  flex-direction: row;
+  /* padding:   5px; */
+  /* justify-content: center;
+  align-content: center; */
+  justify-content: space-between;
+  margin: 5px;
+}
+
+.chatMiniizedComponentFirst {
+  display: flex;
+  /* padding: 5px; */
+
+  gap: 5px;
+}
+
+.chatMiniizedComponentGreenButton {
+  display: flex;
+  padding: 2px 5px;
+  /* width: 50%; */
+  height: 40%;
+  background-color: rgb(0, 128, 0, 0.8) !important;
+  border: none;
+  border-radius: 10px;
+}
+
+.chatMiniizedComponentOpenChatButton {
+  width: 100px;
+}
+
+.chatMiniizedComponent > button {
+  padding: 5px;
+}
+
+.chatcomponentNotopened {
+  width: 300px;
+  height: 120px;
+  /* background-color: #d3d3d3; */
+  /* background-color: #d6dde6; */
+  background-color: rgb(214, 221, 230, 0.8);
+
+  border-radius: 3px;
+
+  overflow: auto;
+  position: fixed;
+  right: 10px;
+  bottom: 1%;
+
+  z-index: 2;
+}
+
+.chatcomponentNotopenedfirst {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  /* margin: 5px; */
+}
+
+.chatcomponentNotopenedfirst > button {
+  padding: 5px;
+}
+
+.chatcomponentNotopenedfirst > button:first-child {
+  margin: 5px;
+}
+
+/* //////////////////////////////// */
+.loginButtons > div {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 20px;
+
+  gap: 10px;
+}
+
+.loginButtons * button {
+  padding: 10px 20px;
+}
+
+.SignupLoginForm {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  gap: 10px;
+}
+
+.SignupLoginForm > button {
+  padding: 5px 30px;
+}
+
+.FormEmail {
+  display: flex;
+  padding: 5px 20px;
+  padding-top: 0px;
+}
+
+.FormEmail * {
+  padding: 5px;
+}
+
+.FormEmail > label {
+  width: 70px;
+}
+
+.FormEmailBtn {
+  padding: 5px;
+}
+
+.StartChatComponent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0px;
+}
+
+.error {
+  padding: 5px;
+  background-color: rgb(255, 0, 0, 0.5) !important;
+}
+
+.successRequest {
+  padding: 5px;
+  background-color: rgba(94, 175, 111, 0.5) !important;
+}
+
+.ProfileComponent {
+  display: flex;
+  padding: 10px;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.ProfileComponent > button {
+  padding: 5px;
+  width: 70%;
+}
+
+.profileImage {
+  display: flex;
+  justify-content: center;
+}
+
+.profileImage > img {
+  border-radius: 10px;
+}
+
+.contactUswindow {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 20px;
+}
+.contactUswindow > button {
+  width: 30%;
+}
+
+.ContactUsForm {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.ContactUsForm > textarea {
+  height: 70px;
+  font-size: 16px;
+}
+
+.ContactUsForm > button {
+  margin-bottom: 10px;
+  width: 30%;
+  padding: 5px 10px;
+}
+
+.contactUswindowBackbutton {
+  display: flex;
+  justify-content: space-between;
+}
+
+.contactUswindowBackbutton > button {
+  padding: 5px 10px;
+}
+
+.contactUswindowBackbuttonv2 {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.contactUswindowBackbuttonv2 > button {
+  padding: 5px 10px;
+}
+
+.uploadImagecomponent {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  border: 1px solid black;
+  padding: 3px;
+}
+
+.changeinformationwindowButtons {
+  display: flex;
+  flex-direction: column;
+  margin: 10px 0px;
+  gap: 10px;
+}
+
+.changeinformationwindowButtons > button {
+  width: 70%;
+  height: 30px;
+}
+
+.chatsubmitComponent {
+  display: flex;
+  margin-top: 2px;
+  bottom: 2;
+  position: fixed;
+
+  /* position: fixed; */
+}
+
+.chatsubmitComponentform {
+  display: flex;
+  flex-direction: row;
+  /* padding: 5px; */
+  /* margin: 0px 5px; */
+
+  /* padding: 5px 30px; */
+}
+
+.chatsubmitComponentform > textarea {
+  width: 340px;
+  height: 60px;
+  font-size: 14px;
+  /* padding: 15px 0; */
+
+  overflow: auto;
+}
+
+.chatsubmitComponentform > button {
+  display: none;
+}
+
+.component *,
+.chatcomponent *,
+.component,
+.chatcomponent {
+  background-color: rgb(214, 221, 230, 0.8);
+  /* background-color: #d6dde6; */
+}
+
+.chatcomponentNotopenedMiniized,
+.chatcomponentNotopened,
+.chatcomponentNotopenedMiniized *,
+.chatcomponentNotopened * {
+  background-color: rgb(214, 221, 230, 0.8);
+}
+
+.livechatTopBorder {
+  background-color: rgb(0, 0, 255, 0.4);
+  display: flex;
+  justify-content: flex-end;
+}
+
+.livechatTopBorder > button {
+  padding: 0px 10px;
+  display: flex;
+  /* margin: 0px 10px; */
+  font-size: 20px;
+  color: yellow;
+  /* background-color: white; */
+  background-color: rgb(0, 0, 255, 0.2);
+
+  justify-content: flex-end;
+  /* background-color: transparent; */
+  border: none;
+  /* padding: 2px; */
+}
+
+.livechatTitle {
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+  padding: 5px;
+  align-content: center;
+  border-bottom: 1px solid rgb(0, 0, 0, 0.2);
+}
+
+.livechatTitleSecondPart {
+  display: flex;
+  align-content: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.livechatcomponents {
+  display: flex;
+  height: 310px;
+  flex-direction: column;
+  /* padding: 10px; */
+  margin: 0px;
+  border: 1px solid rgb(0, 0, 0, 0.3);
+
+  overflow: auto;
+}
+
+.livechatcomponentsHasJoined {
+  display: flex;
+  justify-content: center;
+  font-size: 12px;
+  padding-top: 5px;
+  color: rgb(0, 0, 0, 0.5);
+}
+
+.chatmessagesAdminPartComponent {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  padding: 5px;
+}
+
+.chatmessagesAdminPartComponent > div {
+  width: 60%;
+  background-color: white;
+  overflow-wrap: break-word;
+  padding: 5px;
+}
+
+.chatmessagesUserPartComponent {
+  display: flex;
+  padding: 5px;
+  justify-content: flex-end;
+}
+
+.chatmessagesUserPartComponent > div {
+  display: flex;
+  /* justify-content: flex-end; */
+  display: inline;
+  /* align-content: center; */
+  /* align-items: center; */
+  background-color: rgb(255, 255, 255, 0.8);
+  overflow-wrap: break-word;
+  width: 70%;
+  padding: 5px;
+  /* right: 0; */
+  /* position: relative; */
+  /* direction: ltr !important; */
+  text-align: end;
+}

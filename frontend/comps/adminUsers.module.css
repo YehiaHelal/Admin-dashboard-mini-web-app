@@ -1,0 +1,269 @@
+.MangingDataComponent {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  padding: 5px;
+
+  border: 1px solid rgb(0, 0, 0, 0.2);
+  background-color: white !important;
+  border-radius: 4px;
+}
+
+.MangingDataComponent > button {
+  gap: 10px;
+  padding: 10px 20px;
+  font-size: 18px;
+  border: 1px solid rgb(0, 0, 0, 0.2);
+  background-color: white !important;
+  border-radius: 4px;
+}
+
+.MangingDataComponent > button:hover {
+  border: 1px solid black;
+}
+
+.MangingUserss2ndBtn {
+  margin-left: 5px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  padding: 10px;
+}
+
+.MangingUserss2ndBtn > button {
+  padding: 10px;
+  background-color: white !important;
+  border: 1px solid rgb(0, 0, 0, 0.2);
+}
+
+.MangingUserss2ndBtn > button:hover {
+  border: 1px solid black;
+}
+
+.AllUsers {
+  padding: 10px;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 5px;
+}
+
+.AllUserstyle {
+  display: flex;
+  gap: 5px;
+  flex-direction: column;
+  width: 250px;
+  padding: 5px;
+  border: 1px solid rgb(0, 0, 0, 0.3);
+}
+.AllUserstyle > button {
+  padding: 5px 10px;
+  border: 1px solid rgb(0, 0, 0, 0.8);
+}
+.AllUserstyle > button:hover {
+  border: 1px solid rgb(0, 0, 0, 0.1);
+}
+
+.AllUserstyleExtrabtn {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+
+.AllUserstyleExtrabtn > button {
+  padding: 5px 10px;
+  border: 1px solid rgb(0, 0, 0, 0.99);
+}
+
+.AllUserstyleExtrabtn > button:hover {
+  border: 1px solid rgb(0, 0, 0, 0.1);
+}
+
+.AllUserstyleTitle {
+  text-decoration: underline;
+}
+
+.OrderFullDetails {
+  display: flex;
+  flex-direction: row;
+  gap: 3px;
+  align-items: center;
+}
+.OrderFullDetails > div {
+  display: flex;
+}
+
+.ALLITEMSOptionSelect {
+  padding: 5px;
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  align-items: center;
+}
+
+.ALLITEMSOptionSelect > select {
+  padding: 10px 20px;
+}
+
+.ALLITEMSSearchForUsers > input {
+  padding: 10px;
+}
+.ALLITEMSSearchForUsers > button {
+  padding: 10px;
+}
+
+.EditOrderComponent {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  gap: 10px;
+  /* padding: 20px; */
+  margin: 10px;
+}
+
+.EditOrderComponent > select {
+  padding: 10px 20px;
+}
+
+.Editcomponent {
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+  padding: 10px;
+}
+
+.EditFormComponent {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  width: 300px;
+  font-size: 16px;
+}
+
+.EditFormComponent * {
+  margin-bottom: 5px;
+  padding: 5px;
+}
+
+.EditFormComponentTitle {
+  text-decoration: underline;
+}
+
+.DeleteComponent {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  padding: 10px;
+  width: 300px;
+}
+
+.checkingBeforeDelete {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.checkingBeforeDelete > div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+}
+
+.checkingBeforeDelete * button {
+  padding: 10px 15px;
+}
+
+.checkingBeforeDelete * button:hover {
+  background-color: rgb(255, 255, 255, 0.8);
+}
+
+.DeleteComponent > button {
+  width: 300px;
+  padding: 10px 20px;
+  margin-top: 10px;
+}
+
+.DeleteComponent > button:hover {
+  /* border: 1px solid rgb(0, 0, 0, 0.5); */
+  background-color: rgb(255, 255, 255, 0.8);
+}
+
+.successRequest {
+  padding: 10px 20px;
+  background-color: rgb(0, 128, 0, 0.5) !important;
+}
+.error {
+  padding: 10px 20px;
+  background-color: rgb(255, 0, 0, 0.5) !important;
+}
+
+.addNoteComponent {
+  display: flex;
+  flex-direction: row;
+}
+
+.addNoteComponent > button {
+  padding: 5px;
+}
+
+.addNoteComponentTextarea {
+  width: 300px;
+  height: 50px;
+}
+
+.AddNewProductComponent {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  padding: 40px;
+}
+.AddNewProductForm {
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+  gap: 40px;
+}
+
+.AddNewProductForm > input {
+  padding: 10px 20px;
+  margin-bottom: 10px;
+}
+
+.AddNewProductForm > label {
+  width: 80px;
+}
+
+.AddNewProductFormLabel {
+  width: 30px !important;
+}
+
+.AddProductbuttonSubmit {
+  margin-top: 10px;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.EditUsersComponent > div {
+  display: flex;
+  padding: 10px;
+  gap: 10px;
+}
+
+@media screen and (max-width: 1000px) {
+  .AllUsers {
+    padding: 10px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 5px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .AllUsers {
+    padding: 10px;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 5px;
+  }
+}

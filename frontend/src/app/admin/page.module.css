@@ -1,0 +1,300 @@
+.component {
+  /* display: flex; */
+  /* flex-direction: column; */
+  /* padding: 100px; */
+  padding: 30px;
+  gap: 20px;
+  width: 100%;
+  height: 100%;
+  /* height: 800px; */
+
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 6fr;
+}
+
+.component * svg {
+  width: 20px;
+  height: 20px;
+}
+
+.directionButtons {
+  display: flex;
+  flex-direction: column;
+  /* width: 20%; */
+  gap: 10px;
+  padding: 5px;
+  border-right: 1px solid black;
+  width: 300px;
+}
+.directionButtons > button {
+  /* padding: 10px 10px; */
+  background-color: rgba(255, 255, 255, 0.877);
+  border: 1px black;
+  border-radius: 4px;
+  padding: 10px;
+  width: 80%;
+}
+
+.directionButtons > button:hover {
+  background-color: rgb(0, 0, 255, 0.2);
+}
+.directionButtons > button {
+  display: flex;
+  align-content: center;
+  gap: 10px;
+  padding: 10px;
+  font-size: 18px;
+  border: 1px solid rgb(0, 0, 0, 0.2);
+  /* border: 1px solid rgb(0, 0, 255, 0.4); */
+
+  width: 85%;
+  background-color: white !important;
+}
+
+.directionButtons * {
+  background-color: white !important;
+}
+
+.directionButtons > button:hover {
+  border: 1px solid black;
+  /* background-color: rgb(255, 255, 255, 0.8); */
+}
+
+.MangingDataComponent {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  padding: 5px;
+
+  border: 1px solid rgb(0, 0, 0, 0.2);
+  background-color: white !important;
+  border-radius: 4px;
+}
+
+.MangingDataComponent > button {
+  gap: 10px;
+  padding: 10px 20px;
+  font-size: 18px;
+  border: 1px solid rgb(0, 0, 0, 0.2);
+  background-color: white !important;
+  border-radius: 4px;
+}
+
+.MangingDataComponent > button:hover {
+  border: 1px solid black;
+}
+
+.ALLITEMSComponent {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  /* display: flex; */
+  /* flex-direction: row; */
+  overflow: auto;
+  gap: 10px;
+}
+
+.ALLITEMS {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.ALLITEMS > img {
+  width: 200px;
+  height: 200px;
+}
+.ALLITEMSOptionsandSelect {
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+  gap: 15px;
+}
+.ALLITEMSOptionsandSelect > select,
+.ALLITEMSOptionsandSelect > button {
+  padding: 10px;
+}
+
+.AddNewProductComponent {
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+  padding: 40px;
+}
+
+.imageuploadInput {
+  display: none;
+}
+
+.AddNewProductForm {
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+  gap: 20px;
+}
+
+.AddNewProductForm > input {
+  padding: 10px 20px;
+  margin-bottom: 10px;
+}
+
+.AddNewProductForm > label {
+  width: 80px;
+}
+
+.AddNewProductFormLabel {
+  width: 30px !important;
+}
+
+.AddNewProductFormImage {
+  display: flex;
+  width: 350px;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 30px;
+  margin-top: 20px;
+}
+
+.imageuploadLabelInput {
+  padding: 10px 20px;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  background-color: transparent;
+  background-color: rebeccapurple;
+}
+
+.AddProductbuttonSubmit {
+  margin: 20px;
+  padding: 10px 20px;
+  width: 250px;
+}
+
+.AddProductbuttonSubmit:hover {
+  /* border: 1px solid rgb(0, 0, 0, 0.5); */
+  background-color: rgb(255, 255, 255, 0.8);
+}
+
+.imageuploadLabelInputSelectedImage {
+  width: 200px;
+  height: 200px;
+}
+
+.error {
+  padding: 10px 20px;
+  background-color: rgb(255, 0, 0, 0.5) !important;
+}
+.successRequest {
+  padding: 10px 20px;
+  background-color: rgb(0, 128, 0, 0.5) !important;
+}
+.DeleteProductComponent {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  gap: 10px;
+  /* padding: 20px; */
+  margin: 10px;
+}
+
+.DeleteProductComponent > select {
+  padding: 10px 20px;
+}
+
+.DeleteProductItemComponent {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 300px;
+  gap: 30px;
+}
+
+.DeleteProductItemComponent > button {
+  width: 150px;
+  padding: 10px 20px;
+  margin-top: 10px;
+}
+
+.DeleteProductItemComponent > button:hover {
+  /* border: 1px solid rgb(0, 0, 0, 0.5); */
+  background-color: rgb(255, 255, 255, 0.8);
+}
+
+.checkingBeforeDelete {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.checkingBeforeDelete > div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+}
+
+.checkingBeforeDelete * button {
+  padding: 10px 15px;
+}
+
+.checkingBeforeDelete * button:hover {
+  background-color: rgb(255, 255, 255, 0.8);
+}
+
+.EditProductComponent {
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+}
+
+.EditProductComponent > form {
+  width: 400px;
+}
+
+.AddNewProductFormTitle {
+  display: flex;
+  justify-content: flex-start;
+  margin-bottom: 20px;
+  font-size: 16px;
+  text-decoration: underline;
+}
+
+@media screen and (max-width: 1000px) {
+  .resetPasswordComponent {
+    width: 700px;
+  }
+
+  .component {
+    grid-template-columns: 1fr;
+  }
+
+  .ALLITEMSComponent {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .resetPasswordComponent {
+    width: 400px;
+  }
+}
+
+.DashboardNotifcationDefault {
+  margin-bottom: 20px;
+}
+
+.DashboardData {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 10px;
+}
+.DashboardData > h3 {
+  text-decoration: underline;
+}
